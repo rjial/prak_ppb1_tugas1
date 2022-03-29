@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         txtEmail = (TextView) findViewById(R.id.txtEmail);
         txtTTL = (TextView) findViewById(R.id.txtTTL);
         txtDeskripsi = (TextView) findViewById(R.id.txtDeskripsi);
+        btnTampil = (Button) findViewById(R.id.btnTampil);
 
         btnTampil.setOnClickListener(new View.OnClickListener() {
             @Override
