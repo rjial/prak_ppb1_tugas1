@@ -5,4 +5,5 @@
     <string name="tempat_tanggal_lahir">Tempat. Tanggal Lahir :</string>
     <string name="deksripsi">Deksripsi :</string>
     <string name="tampil">Tampil</string>
+    <string name="bio">Halo, nama saya Rizal Abdul Basith, saya mahasiswa STIKI Malang, dulunya sekolah di SMKN 8 Malang, dan sambil mondok di PPM Baitul Jannah, merupakan anak terakhir dari 3 bersaudara.\n\nSaya merupakan seorang Fullstack Developer, menguasai PHP seperti Laravel dan CodeIgniter, Android berbasis Kotlin dan Java, Python seperti Matplotlib untuk plot, Web scaping dengan BeautifulSoup, dan Flask, Backend menggunakan Express.js hingga membuat server REST API dengan menggunakan teknologi yang saya sebutkan tadi.\n\nHobi saya yaitu menganalis sistem sehingga bisa melacak sebuah inti sistem.</string>
 </resources>
