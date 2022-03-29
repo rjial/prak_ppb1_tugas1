@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/lblCV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Curicullum Vitae"
+        android:gravity="center_horizontal"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/lblNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nama"
+        android:layout_alignLeft="@id/lblCV"
+        android:layout_below="@id/lblCV"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/txtNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/lblNama"
+        android:layout_below="@id/lblNama"/>
+    <TextView
+        android:id="@+id/lblEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:layout_alignLeft="@id/txtNama"
+        android:layout_below="@id/txtNama"
+        />
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/lblEmail"
+        android:layout_below="@id/lblEmail"/>
+    <TextView
+        android:id="@+id/lblTTL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tempat_tanggal_lahir"
+        android:layout_alignLeft="@id/txtEmail"
+        android:layout_below="@id/txtEmail"
+        />
+    <EditText
+        android:id="@+id/txtTTL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/lblTTL"
+        android:layout_below="@id/lblTTL"/>
+    <TextView
+        android:id="@+id/lblDeskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/deksripsi"
+        android:layout_alignLeft="@id/txtTTL"
+        android:layout_below="@id/txtTTL"
+        />
+    <EditText
+        android:id="@+id/txtDeskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/lblDeskripsi"
+        android:layout_below="@id/lblDeskripsi"/>
+    <Button
+        android:id="@+id/btnTampil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tampil"
+        android:layout_below="@id/txtDeskripsi"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
